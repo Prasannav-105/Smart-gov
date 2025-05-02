@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="aIiyL19sXfWsIiCOpw07">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Staff" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="8" width="94" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="App" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="152" width="87" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Admin" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="384" y="8" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="FirebaseAuth" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="278" width="154" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Firestore" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="212" y="278" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Supabase" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="386" y="278" width="126" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Blockchain" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="562" y="278" width="137" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Login/Signup" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.18;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="User Approval/Visit Assignment" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.82;entryY=0;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Authentication" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.68;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Data Storage" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="274" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="File Storage" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="3" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Immutable Logs" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="631" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
